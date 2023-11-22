@@ -1,0 +1,8 @@
+.main-section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+}
+.second-section{
+    width: 400px;
+}

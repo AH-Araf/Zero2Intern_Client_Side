@@ -3,9 +3,11 @@ import './NavBar.css'
 import logo from '../../../../src/assets/Logo/a.png'
 import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
+// import useAdmin from "../../../hooks/useAdmin";
 
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext);
+    // const [isAdmin] = useAdmin();
     const handleLogOut = () => {
         logOut()
             .then(() => { })
@@ -49,6 +51,8 @@ const NavBar = () => {
                         <li><NavLink to="/getAllIntern">Intern</NavLink></li>
                         <li><NavLink to="/about">About</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
+                        <li><NavLink to="/dashboard/adminhome">Dashboard</NavLink></li> 
+                       
 
                         {
                             user ? <>
@@ -60,6 +64,7 @@ const NavBar = () => {
                             <li><NavLink to="/login">Login</NavLink></li>
                             </>
                         }
+                        
                     </ul>
                 </div>
             </div>
