@@ -39,7 +39,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/Interns/:id",
-        element: <SingleIntern></SingleIntern>,
+        element: <PrivateRoute><SingleIntern></SingleIntern></PrivateRoute>,
         loader: async ({params})  => fetch(`http://localhost:5000/interns/${params.id}`),
       },
       {

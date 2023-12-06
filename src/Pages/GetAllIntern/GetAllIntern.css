@@ -57,6 +57,32 @@
     color:darkorange;
     font-size: medium;
 }
+
+
+.Intern-single-category1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lavender;
+    padding: 30px 200px;
+}
+.Intern-single-category2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lavender;
+    padding: 10px 0px;
+    
+}
+.Intern-single-category3{
+    background-color: lavender;
+    text-align:left;
+}
+.company-image1{
+    height: 220px;
+    width: 380px;
+    border-radius: 10px;
+}
 @media only screen and (max-width: 516px){
     .all-Interns{
         display: grid;
