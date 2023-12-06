@@ -2,6 +2,11 @@ const About = () => {
     return (
         <div>
             <h1 className="About_Heading">About</h1>
+            <section>
+                <p>
+                    This is about page.
+                </p>
+            </section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nihil quod in eum sapiente accusantium velit aut animi modi nam, ratione aperiam officia quidem fuga aspernatur consectetur error minus doloremque!
             Magni ducimus sequi ut dolor minus, iure voluptate nostrum delectus fuga error? Laudantium dolor odio alias quasi sint, officia dolorem. Eligendi aperiam tempore debitis vel quae recusandae quibusdam? Facilis, veritatis?
             Numquam quam amet rem odio velit, architecto totam dignissimos tempora adipisci accusamus explicabo in sapiente ipsam quis impedit ducimus vero nisi natus veniam exercitationem, incidunt quasi. Fuga ipsam consequuntur veniam.
