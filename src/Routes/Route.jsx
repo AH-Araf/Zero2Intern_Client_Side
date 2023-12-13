@@ -9,7 +9,6 @@ import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Layout/Dashboard/Dashboard";
 import AdminHome from "../Pages/AdminDashboard/AdminHome/AdminHome";
-// import UserHome from "../Pages/UserDashboard/UserHome/UserHome";
 import UserProfile from "../Pages/UserDashboard/UserProfile/UserProfile";
 import AddAnIntern from "../Pages/AdminDashboard/AddAnIntern/AddAnIntern";
 import AddedInterns from "../Pages/AdminDashboard/AddedInterns/AddedInterns";

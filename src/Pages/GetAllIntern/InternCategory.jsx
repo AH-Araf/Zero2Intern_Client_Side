@@ -12,7 +12,7 @@ const InternCategory = ({a}) => {
 
 
     return (
-        <div className='Intern-single-category'> 
+        <div className='Intern-single-category' data-aos="fade-up"> 
 
 
             <img className='company-image'  src={image} alt="" />  <br />    

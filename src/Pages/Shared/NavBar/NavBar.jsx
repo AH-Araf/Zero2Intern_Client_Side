@@ -29,15 +29,7 @@ const NavBar = () => {
                             <li><NavLink to="/about">About</NavLink></li>
                             <li><NavLink to="/contact">Contact</NavLink></li>
                             <li><NavLink to="/login">Login</NavLink></li>
-                            {/* <li tabIndex={0}>
-                                <details>
-                                    <summary>Login</summary>
-                                    <ul className="p-2 bg-opacity-30 bg-green-100 dropdown-box">
-                                        <li><NavLink to="/adminLogin">Admin</NavLink></li>
-                                        <li><NavLink to="/userLogin">User</NavLink></li>
-                                    </ul>
-                                </details>
-                            </li> */}
+                            
                         </ul>
                     </div>
                     <img className="h-12 w-20 bg-slate-700" src={logo} alt="" />

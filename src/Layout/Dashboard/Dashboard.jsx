@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { MdAdminPanelSettings, MdLibraryAdd, MdBookmarkAdded, MdManageHistory } from "react-icons/md";
+import { HiOutlineHome } from "react-icons/hi";
 import { LuTally4 } from "react-icons/lu";
 // import useAdmin from "../../hooks/useAdmin";
 
@@ -41,6 +42,7 @@ const Dashboard = () => {
                                 <li><NavLink to="/dashboard/AddedInterns"><MdBookmarkAdded /> Added Interns</NavLink></li>
                                 <li><NavLink to="/dashboard/AllApplicant"><LuTally4 /> All Applicant</NavLink></li>
                                 <li><NavLink to="/dashboard/ManageInterns"><MdManageHistory /> Manage Interns</NavLink></li>
+                                <li><NavLink to="/"><HiOutlineHome /> Back To Home</NavLink></li>
 
 
                             </> : <>

@@ -12,7 +12,7 @@ const HomeIntern = () =>{
             .then(data => setCat(data))
     }, [])
     return (
-        <div>
+        <div data-aos="flip-up">
             <div>
                 <h1 className='text-3xl home-title'>Latest Interns</h1>
                 <div className='display-flex m-3 all-Interns3'>
@@ -21,7 +21,8 @@ const HomeIntern = () =>{
                     cat.map(a => <HomeInternSingle
                     key={a._id}
                     a={a}
-                    >    
+                    >
+                        
                     </HomeInternSingle>)
                 }
             </div>
